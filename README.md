@@ -24,7 +24,17 @@
 
 # Запуск
 
-Склонируйте репозиторий и перейдите в директорию проекта
+Склонируйте репозиторий
+
+```sh
+git clone https://github.com/Veronika-MG/electronics_retailer.git
+```
+
+и перейдите в директорию проекта
+
+```sh
+cd electronics_retailer
+```
 
 Приложение можно развернуть при помощи Docker или стандартным способом
 
@@ -33,7 +43,7 @@
 В корне проекта выполните команду
 
 ```sh
-$ docker compose up -d
+docker compose up -d
 ```
 
 Перейдите на <http://localhost:8000/>
@@ -47,19 +57,26 @@ $ docker compose up -d
 ## Стандартный
 
 1 Создайте виртуальное окружение и активируйте его:
+*Если у вас windows, нужно использовать (python, pip) вместо (python3, pip3)
 
    ```shell
-   $ python3 -m venv venv
+   python3 -m venv venv
    ```
 
+Windows:
    ```shell
-   $ source venv/bin/activate
+   ./venv/Script/activate
+   ```
+
+Unix подобные системы:
+   ```shell
+   source venv/bin/activate
    ```
 
 2 Установите зависимости:
 
    ```shell
-   $ pip3 install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 3 Измените файл <*template.env*> на <*.env*> и подставьте ваши значения и данные для подключения к вашей базе данных
@@ -67,25 +84,25 @@ $ docker compose up -d
 4 Переход в директорию:
 
    ```shell
-   $ cd electronics_retailer
+   cd electronics_retailer
    ```
 
 6 Примените миграции:
 
    ```shell
-   $ python3 manage.py migrate
+   python3 manage.py migrate
    ```
 
 7 Загрузка фикстур:
 
   ```shell
-  $ python3 manage.py loaddata fixtures/data.json
+  python3 manage.py loaddata fixtures/data.json
   ```
 
 8 Запуск приложения:
 
    ```shell
-   $ python3 manage.py runserver
+   python3 manage.py runserver
    ```
 
 Перейдите на <http://localhost:8000/>
@@ -104,7 +121,7 @@ $ docker compose up -d
 
 Каждое звено сети ссылается только на одного поставщика оборудования (не обязательно предыдущего по иерархии). Важно отметить, что уровень иерархии определяется не названием звена, а отношением к остальным элементам сети, т. е. завод всегда находится на уровне 0, а если розничная сеть относится напрямую к заводу, минуя остальные звенья, ее уровень — 1.
 
-Система считает, что узел у которого нет поставщика это "завод", узел который не является поставщиком "индивидуальный предприниматель", а узел который является поставщиком и у которого есть поставщик "розничная сеть"
+Система считает, что узел, у которого нет поставщика, это "завод", узел, который не является поставщиком "индивидуальный предприниматель", а узел, который является поставщиком и у которого есть поставщик "розничная сеть"
 
 Пример сети
 
@@ -235,7 +252,7 @@ GET /api/networknodes/
             "house_number": "11",
             "level": "Завод"
         }
-    },
+    }
 ]
 ```
 
