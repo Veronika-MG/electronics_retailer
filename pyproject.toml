@@ -1,0 +1,19 @@
+[tool.ruff]
+line-length = 79
+indent-width = 4
+exclude = [
+    "migrations",
+    "venv",
+    "static",
+    "media",
+]
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["D", "ANN", "EXE002", "RUF012", "ARG002", "RUF001", "S104", "DTZ005", "RUF003"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"

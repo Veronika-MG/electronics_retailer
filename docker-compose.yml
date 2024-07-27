@@ -1,0 +1,38 @@
+version: "3.5"
+services:
+  pgdb:
+    image: postgres
+    container_name: pgdb
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_PORT: 5432
+    volumes:
+      - pgdbdata:/var/lib/postgresql/data/
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+  backend:
+    depends_on:
+      pgdb:
+        condition: service_healthy
+    build: .
+    container_name: backend
+    ports:
+      - 8000:8000
+    environment:
+      DJANGO_DEBUG: ${DJANGO_DEBUG:-true}
+      DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:-*}
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:-hcr0g#l*%n0f@j2%4k-dfds2#ozm5)w@pzu&5on-=*i7c109}
+      DJANGO_SERVER_PORT: ${DJANGO_SERVER_PORT:-8000}
+      POSTGRES_HOST: pgdb
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_PORT: 5432
+
+volumes:
+  pgdbdata:

@@ -1,0 +1,8 @@
+venv/
+.vscode/
+pyproject.toml
+.gitignore
+.env
+README.md
+/__pycache__
+/images

@@ -1,0 +1,1264 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-07-26T14:32:33.153Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "1 (1111)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-07-26T14:32:41.214Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "2 (2222)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-07-26T14:32:45.603Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "3 (3333)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-07-26T15:08:09.561Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Индивидуальный предприниматель",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-07-26T15:11:49.363Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Индивидуальный предп",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-07-26T15:12:14.546Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Розничкая сеть 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Debt\", \"Relative to\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-07-26T15:13:06.122Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Розничкая сеть 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Debt\", \"Relative to\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-07-26T15:13:38.920Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Индивидуальный предп",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-07-26T15:14:03.176Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Индивидуальный предп",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Relative to\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-07-26T15:14:05.909Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Индивидуальный предп",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Relative to\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-07-26T15:14:07.953Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Индивидуальный предп",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Relative to\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-07-26T15:14:41.640Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Завод 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-07-26T15:15:17.595Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Розничная сеть",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-07-26T15:16:00.946Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Индивидуальный предп",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-07-26T15:16:47.318Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Индивидуальный предп",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"City\", \"Relative to\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-07-26T15:17:10.306Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Завод 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Country\", \"Relative to\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-07-26T15:17:19.843Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Завод 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"City\", \"Relative to\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-07-26T15:18:28.057Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Розничная сеть",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"City\", \"Relative to\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-07-26T15:18:41.820Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Индивидуальный предп",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"City\", \"Relative to\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-07-26T16:13:59.672Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "user",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-07-26T20:23:08.853Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Розничная сеть",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-07-26T20:24:04.257Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Завод 2",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-07-26T20:24:14.908Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "234",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-07-26T20:24:31.063Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "341",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-07-26T20:24:46.813Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "34",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2024-07-26T20:25:25.283Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "341",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2024-07-26T20:26:18.866Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "234",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2024-07-26T20:29:20.936Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "123",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2024-07-26T20:29:34.222Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "123",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2024-07-26T20:29:45.963Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "123",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2024-07-26T20:30:42.169Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "123",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2024-07-26T20:30:53.261Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "123",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2024-07-26T20:31:27.717Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "123",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2024-07-26T20:31:55.604Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "123",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2024-07-26T20:32:25.359Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "123",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2024-07-26T20:32:38.460Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "123",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Debt\", \"Relative to\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2024-07-26T20:32:44.941Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "123",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2024-07-26T20:33:05.713Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "123",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2024-07-26T20:33:11.957Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "123",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2024-07-26T20:39:35.910Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "123",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2024-07-26T20:39:43.164Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "21",
+        "object_repr": "123",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2024-07-26T20:39:59.789Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "22",
+        "object_repr": "123",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2024-07-26T20:41:08.416Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "21",
+        "object_repr": "123",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2024-07-26T21:15:03.373Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Продукт 1(3000)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Model\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2024-07-26T21:15:13.296Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Продукт 2(Pro)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Model\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2024-07-26T21:15:25.912Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "1(11-20435-111.23)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Model\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2024-07-26T21:15:35.705Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Продукт 1(11-20435-111.23)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2024-07-26T21:15:38.874Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Продукт 2(Pro)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2024-07-26T21:15:41.714Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Продукт 3(3000)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add Узел сети",
+        "content_type": 7,
+        "codename": "add_networknode"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change Узел сети",
+        "content_type": 7,
+        "codename": "change_networknode"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete Узел сети",
+        "content_type": 7,
+        "codename": "delete_networknode"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view Узел сети",
+        "content_type": 7,
+        "codename": "view_networknode"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add Продукт",
+        "content_type": 8,
+        "codename": "add_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change Продукт",
+        "content_type": 8,
+        "codename": "change_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete Продукт",
+        "content_type": 8,
+        "codename": "delete_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view Продукт",
+        "content_type": 8,
+        "codename": "view_product"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$12jZX7gIDlJM1f408XQMJD$SCTB7h+5E4Z04p34PdqO5DS2oPzk26gRdh58LsmjZuo=",
+        "last_login": "2024-07-26T14:19:38.532Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-07-26T13:54:22.690Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$hEZZ9RbeKShxNmpKqujBNr$BdHgjEvGovTahGBbN0Um7s2f3DaemNlwZNaT3iRO/+M=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-07-26T16:13:59.121Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "retail_network",
+        "model": "networknode"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "retail_network",
+        "model": "product"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ozp58oauxx8ikggqh6orhrsubkb63j8k",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pBShgAu3XsGMsNMpWpoUtqV8e5K0oVu33v_v1TCfStpb7KmmdVZGXX6ZYT5IbULvmO9LTovdVtn0j3Rh236urA8L0f7d1Cwlb5GgkjkwQlgiD5bAYqOyATD4FCG0UFAj9YA42DsF45BaArA2U5WvT_y-zgn:1sXLnG:gBHN-smDz4dIPYfOwoWYDCwA3slKEJxmyvtWHk8g-aw",
+        "expire_date": "2024-08-09T14:19:38.534Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ucv9fryjqtrgy4s7uqrsss5wklkn1bgo",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pBShgAu3XsGMsNMpWpoUtqV8e5K0oVu33v_v1TCfStpb7KmmdVZGXX6ZYT5IbULvmO9LTovdVtn0j3Rh236urA8L0f7d1Cwlb5GgkjkwQlgiD5bAYqOyATD4FCG0UFAj9YA42DsF45BaArA2U5WvT_y-zgn:1sXLP1:ZQ5_iVfoejXWkCl1FTQt2nZYIZohjiegB6NmsswmlGU",
+        "expire_date": "2024-08-09T13:54:35.925Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zvmqo2v1lp0h92luy2odco3yxdaxdjy0",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pBShgAu3XsGMsNMpWpoUtqV8e5K0oVu33v_v1TCfStpb7KmmdVZGXX6ZYT5IbULvmO9LTovdVtn0j3Rh236urA8L0f7d1Cwlb5GgkjkwQlgiD5bAYqOyATD4FCG0UFAj9YA42DsF45BaArA2U5WvT_y-zgn:1sXRMV:BW4To11bmX-Tp-0fG0CTlDX_N-R-CJ9XOg9vjTrWpms",
+        "expire_date": "2024-08-09T20:16:23.185Z"
+    }
+},
+{
+    "model": "retail_network.networknode",
+    "pk": 4,
+    "fields": {
+        "path": "0001",
+        "depth": 1,
+        "numchild": 2,
+        "name": "Завод 1",
+        "email": "name@example.com",
+        "country": "Россия",
+        "city": "Москва",
+        "street": "Уличная",
+        "house_number": "11",
+        "debt": "0.00",
+        "created_at": "2024-07-26T14:34:37.329Z",
+        "products": []
+    }
+},
+{
+    "model": "retail_network.networknode",
+    "pk": 5,
+    "fields": {
+        "path": "00010001",
+        "depth": 2,
+        "numchild": 2,
+        "name": "Розничкая сеть 1",
+        "email": "name@example.com",
+        "country": "Россия",
+        "city": "Москва",
+        "street": "Уличная",
+        "house_number": "10",
+        "debt": "4626422.00",
+        "created_at": "2024-07-26T14:35:35Z",
+        "products": [
+            1
+        ]
+    }
+},
+{
+    "model": "retail_network.networknode",
+    "pk": 6,
+    "fields": {
+        "path": "00010002",
+        "depth": 2,
+        "numchild": 1,
+        "name": "Розничкая сеть 2",
+        "email": "name@example.com",
+        "country": "Россия",
+        "city": "Воронеж",
+        "street": "Уличная",
+        "house_number": "11",
+        "debt": "563456.00",
+        "created_at": "2024-07-26T14:36:06Z",
+        "products": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "retail_network.networknode",
+    "pk": 7,
+    "fields": {
+        "path": "000100010002",
+        "depth": 3,
+        "numchild": 0,
+        "name": "Индивидуальный предприниматель 2",
+        "email": "name@example.com",
+        "country": "Россия",
+        "city": "Москва",
+        "street": "Уличная",
+        "house_number": "11",
+        "debt": "54335245.00",
+        "created_at": "2024-07-26T15:07:27Z",
+        "products": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "retail_network.networknode",
+    "pk": 8,
+    "fields": {
+        "path": "000100010001",
+        "depth": 3,
+        "numchild": 0,
+        "name": "Индивидуальный предприниматель 1",
+        "email": "name@example.com",
+        "country": "Россия",
+        "city": "Москва",
+        "street": "Уличная",
+        "house_number": "34",
+        "debt": "73358.00",
+        "created_at": "2024-07-26T15:11:09Z",
+        "products": [
+            2
+        ]
+    }
+},
+{
+    "model": "retail_network.networknode",
+    "pk": 9,
+    "fields": {
+        "path": "000100020001",
+        "depth": 3,
+        "numchild": 0,
+        "name": "Индивидуальный предприниматель 3",
+        "email": "name@example.com",
+        "country": "Россия",
+        "city": "Воронеж",
+        "street": "Уличная",
+        "house_number": "36",
+        "debt": "43534.00",
+        "created_at": "2024-07-26T15:13:16Z",
+        "products": [
+            3
+        ]
+    }
+},
+{
+    "model": "retail_network.networknode",
+    "pk": 10,
+    "fields": {
+        "path": "0002",
+        "depth": 1,
+        "numchild": 1,
+        "name": "Завод 2",
+        "email": "name@example.com",
+        "country": "Китай",
+        "city": "Пекин",
+        "street": "Уличная",
+        "house_number": "28",
+        "debt": "0.00",
+        "created_at": "2024-07-26T15:14:20Z",
+        "products": [
+            1,
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "retail_network.networknode",
+    "pk": 11,
+    "fields": {
+        "path": "00020001",
+        "depth": 2,
+        "numchild": 1,
+        "name": "Розничная сеть",
+        "email": "name@example.com",
+        "country": "Россия",
+        "city": "Екатеринбург",
+        "street": "Уличная",
+        "house_number": "3",
+        "debt": "23425.00",
+        "created_at": "2024-07-26T15:14:50Z",
+        "products": [
+            1,
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "retail_network.networknode",
+    "pk": 12,
+    "fields": {
+        "path": "000200010001",
+        "depth": 3,
+        "numchild": 0,
+        "name": "Индивидуальный предприниматель",
+        "email": "name@example.com",
+        "country": "Россия",
+        "city": "Тюмень",
+        "street": "Уличная",
+        "house_number": "8",
+        "debt": "11032.00",
+        "created_at": "2024-07-26T15:15:27Z",
+        "products": [
+            1,
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "retail_network.product",
+    "pk": 1,
+    "fields": {
+        "name": "Продукт 1",
+        "model": "11-20435-111.234",
+        "release_date": "2024-07-26"
+    }
+},
+{
+    "model": "retail_network.product",
+    "pk": 2,
+    "fields": {
+        "name": "Продукт 2",
+        "model": "Pro",
+        "release_date": "2024-07-26"
+    }
+},
+{
+    "model": "retail_network.product",
+    "pk": 3,
+    "fields": {
+        "name": "Продукт 3",
+        "model": "3000",
+        "release_date": "2024-07-26"
+    }
+}
+]
